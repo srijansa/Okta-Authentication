@@ -19,10 +19,10 @@ export default class Navbar extends Component {
             <div className="offcanvas-body">
                 <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                    <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                    <Link className="nav-link active" aria-current="page" to="/home">Home</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/">Link</Link>
+                    <Link className="nav-link" to="/employee">Emoployee</Link>
                 </li>
                 <li className="nav-item dropdown">
                     <Link className="nav-link dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
